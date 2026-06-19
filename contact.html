@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Heal Thy Locs</title>
+    <meta
+      name="description"
+      content="Get in touch with Heal Thy Locs for services, products, or course inquiries."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">HTL</span>
+          <span>Heal Thy Locs</span>
+        </a>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="products.html">Products</a>
+          <a href="courses.html">Courses</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-btn" href="https://wa.me/254700000000">Chat on WhatsApp</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1>Let’s talk about your loc care goals</h1>
+        </div>
+      </section>
+
+      <section class="container section-spacing contact-layout">
+        <div class="contact-card">
+          <h2>Send us a message</h2>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" />
+            </label>
+            <label>
+              Service interest
+              <select name="service">
+                <option>Services</option>
+                <option>Loc Installation</option>
+                <option>Retwisting</option>
+                <option>Detox Treatment</option>
+                <option>Products</option>
+                <option>Courses</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell us how we can help."></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-details-card">
+          <h2>Reach us</h2>
+          <a class="contact-link" href="tel:+254700000000">📞 +254 700 000 000</a>
+          <a class="contact-link" href="https://wa.me/254700000000">💬 Chat on WhatsApp</a>
+          <a class="contact-link" href="mailto:hello@healythlocs.com">✉️ hello@healythlocs.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Heal Thy Locs. All rights reserved.</p>
+        <a href="https://wa.me/254700000000" target="_blank">WhatsApp Support</a>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/254700000000?text=Hello%20Heal%20Thy%20Locs%2C%20I%20need%20assistance%20with%20my%20inquiry" target="_blank" aria-label="Chat on WhatsApp">
+      <span>💬</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
