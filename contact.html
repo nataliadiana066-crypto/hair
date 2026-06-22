@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heal Thy Locs | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Heal Thy Locs</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="products.html">Products</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero contact-hero">
+      <div class="container">
+        <p class="eyebrow">Connect with Us</p>
+        <h1>Reach Heal Thy Locs</h1>
+        <p class="hero-subtitle">Questions? Bookings? Product advice? Our team is here for your loc wellness.</p>
+      </div>
+    </section>
+
+    <section class="section container contact-section">
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div class="section-header">
+            <h2>Let's Talk</h2>
+            <p>Fast, friendly support for bookings, product guidance, and course enrollment.</p>
+          </div>
+          <div class="contact-card">
+            <p><strong>Phone</strong></p>
+            <a href="tel:+254700000000">+254 700 000 000</a>
+          </div>
+          <div class="contact-card">
+            <p><strong>Email</strong></p>
+            <a href="mailto:hello@healthyylocs.co.ke">hello@healthyylocs.co.ke</a>
+          </div>
+          <div class="contact-card">
+            <p><strong>WhatsApp</strong></p>
+            <a href="https://api.whatsapp.com/send?phone=254700000000&text=Hello%20Heal%20Thy%20Locs%2C%20I%20need%20assistance." target="_blank">Chat on WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option>Loc Services</option>
+              <option>Products</option>
+              <option>Courses</option>
+              <option>General inquiry</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your loc needs"></textarea>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-note">You can also message us instantly on WhatsApp for faster booking support.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://api.whatsapp.com/send?phone=254700000000&text=Hello%20Heal%20Thy%20Locs%2C%20I%20need%20help%20with%20my%20locs." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
